@@ -724,7 +724,7 @@
  * the issues involved, don't use bed PID until someone else verifies that your hardware works.
  * @section bed temp
  */
-//#define PIDTEMPBED
+#define PIDTEMPBED // 使能热床PID自整定 // kk 20230415
 
 //#define BED_LIMIT_SWITCHING
 
